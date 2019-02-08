@@ -32,8 +32,10 @@ document.querySelector('pre').innerHTML = jsonHighlight({
 ```
 
 ## Todos:
- - [ ] 可配置内联样式
+ - [ ] 可配置内联颜色
+ - [ ] 可配置类名前缀
  - [ ] 全局配置
+ - [ ] cli接口
 
 ## Particular Thanks
 
