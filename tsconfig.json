@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"module": "es2015",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"declaration": true,
+		"typeRoots": ["./types"]
+	},
+	"locale": "zh-CN",
+	"include": ["src/**/*", "example/**/*"],
+	"exclude": ["node_modules", "**/*.spec.ts"]
+}

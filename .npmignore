@@ -1,0 +1,7 @@
+build/
+docs/
+example/
+node_modules/
+.**/*
+commitlint.config.js
+yarn.lock
