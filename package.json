@@ -1,7 +1,7 @@
 {
 	"name": "json-highlight",
-	"version": "0.1.0",
-	"description": "a MVVM framework",
+	"version": "0.1.1",
+	"description": "A Json to Html formatter",
 	"unpkg": "dist/json-highlight.min.js",
 	"jsdelivr": "dist/json-highlight.min.js",
 	"main": "dist/json-highlight.js",
@@ -35,11 +35,12 @@
 		"json-highlight",
 		"highlight",
 		"json",
+		"html",
 		"json format",
 		"json to html"
 	],
 	"author": "bowencool",
-	"license": "ISC",
+	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/bowencool/json-highlight/issues"
 	},

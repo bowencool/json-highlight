@@ -1,5 +1,5 @@
 /*!
- * json-highlight v0.1.0
+ * json-highlight v0.1.1
  * Copyright (c) 2019 Bowen Zhao
  * Released under the MIT License.
  */
