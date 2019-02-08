@@ -1,5 +1,5 @@
 /*!
- * @bowen/json-highlight v0.1.0
+ * json-highlight v0.1.0
  * Copyright (c) 2019 Bowen Zhao
  * Released under the MIT License.
  */
@@ -116,14 +116,14 @@ __webpack_require__.r(__webpack_exports__);
             return "<span class=\"json-key\">" + RegExp.$1 + "</span>:";
         }
         var type = 'number';
-        if (/^".+"$/.test(match)) {
-            type = 'string';
-        }
         if (/true|false/.test(match)) {
             type = 'boolean';
         }
         if (/null/.test(match)) {
             type = 'null';
+        }
+        if (/^".+"$/.test(match)) {
+            type = 'string';
         }
         return "<span class=\"json-" + type + "\">" + match + "</span>";
     });

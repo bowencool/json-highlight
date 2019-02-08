@@ -1,6 +1,6 @@
-import json from '../src/index';
+import jsonHighlight from '../src/index';
 
-document.querySelector('pre').innerHTML = json({
+document.querySelector('pre').innerHTML = jsonHighlight({
 	number: 123,
 	string: 'hello',
 	array: [
