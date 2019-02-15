@@ -9,9 +9,9 @@ npm i json-highlight
 ```
  - using in browser
 ``` html
-<script scr="//unpkg.com/json-highlight@latest"></script>
+<script scr="//unpkg.com/json-highlight"></script>
 <!-- or -->
-<script scr="//cdn.jsdelivr.net/npm/json-highlight@latest"></script>
+<script scr="//cdn.jsdelivr.net/npm/json-highlight"></script>
 ```
 
 ## Usage

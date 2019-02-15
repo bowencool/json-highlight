@@ -14,7 +14,8 @@
 	"scripts": {
 		"start": "npm run dev",
 		"dev": "webpack-dev-server --progress --config build/webpack.config.dev.js",
-		"build": "webpack --config build/webpack.config.prod.js && webpack --config build/webpack.config.doc.js",
+		"build": "rollup --config build/rollup.config.js",
+		"build:webpack": "webpack --config build/webpack.config.prod.js && webpack --config build/webpack.config.doc.js",
 		"prepublishOnly": "npm run build",
 		"prettier": "prettier --write ./src/**/* && prettier --write ./example/**/*",
 		"commitmsg": "commitlint -E GIT_PARAMS",
@@ -51,6 +52,9 @@
 		"html-webpack-plugin": "^3.2.0",
 		"lint-staged": "^7.2.0",
 		"prettier": "^1.13.7",
+		"rollup": "^1.1.2",
+		"rollup-plugin-terser": "^4.0.4",
+		"rollup-plugin-typescript2": "^0.19.2",
 		"ts-loader": "^5.3.3",
 		"typescript": "^3.2.2",
 		"webpack": "^4.16.0",
@@ -61,5 +65,8 @@
 	"engines": {
 		"node": ">= 8.11.0",
 		"npm": ">= 5.6.0"
+	},
+	"dependencies": {
+		"rollup-plugin-typescript": "^1.0.0"
 	}
 }
