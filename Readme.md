@@ -16,7 +16,7 @@ npm i json-highlight
 
 ## Usage
 ``` js
-document.querySelector('pre').innerHTML = jsonHighlight({
+jsonHighlight({
 	number: 123,
 	string: 'hello',
 	array: [
@@ -29,6 +29,8 @@ document.querySelector('pre').innerHTML = jsonHighlight({
 		},
 	],
 });
+// or
+jsonHighlight(JSON.stringify(obj))
 ```
 
 ## Todos:
